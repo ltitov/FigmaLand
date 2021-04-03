@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Graphik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.42;
+  background-color: $dark-bg;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 16px 50px;
+  border-radius: 35px;
+  font-size: 20px;
+
+  &--white {
+    color: $primary;
+    background-color: $light-text;
+  }
+
+  &--blue {
+    color: $light-text;
+    background-color: $primary;
+  }
+}

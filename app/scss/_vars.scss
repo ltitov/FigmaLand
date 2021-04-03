@@ -1,0 +1,23 @@
+$primary: #2091f9;
+$text: #252b42;
+$second-text: #374754;
+$light-text: #fff;
+$dark-bg: #252b42;
+$light-bg: #fff;
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin h-reset {
+  margin: 0;
+}
