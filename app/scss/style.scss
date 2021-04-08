@@ -267,8 +267,9 @@
     margin-bottom: 20px;
   }
 
-  &__title {
+  &__heading {
     @include h-reset;
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
@@ -276,6 +277,7 @@
   }
 
   &__text {
+    @include h-reset;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -284,3 +286,35 @@
 }
 
 // End features section  
+
+// Start way section
+
+.way {
+  padding: 90px 0 30px;
+
+  &__inner {}
+
+  &__title {
+    margin: 0 25px 28px;
+  }
+
+  &__subtitle {
+    margin: 0 52px 60px;
+  }
+
+  &__link {
+    display: inline-block;
+    min-width: 236px;
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    width: 100%;
+    min-height: 212px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 50px;
+  }
+}
+
+// End way section
