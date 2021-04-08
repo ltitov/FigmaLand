@@ -12,40 +12,88 @@
 <body>
 
   <header class="header">
-    <div class="container">
-      <div class="logo header__logo">
-        <img class="header__img" src="images/logo.png" alt="This is Logo website">
-      </div>
+
+    <div class="header__top">
+      <a class="logo header__logo" href="#">
+        <img class="header__img" src="images/logo.png" width="206" height="78" alt="This is Logo website">
+      </a>
 
       <div class="header__menu menu">
         <div class="menu__icon icon__menu">
           <span></span>
-          <span></span>
-          <span></span>
         </div>
         <nav class="menu__nav">
           <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link" hfer="#"></a></li>
+            <li class="menu__item"><a class="menu__link" hfer="">Home</a></li>
+            <li class="menu__item"><a class="menu__link" hfer="">Product</a></li>
+            <li class="menu__item"><a class="menu__link" hfer="">Pricing</a></li>
+            <li class="menu__item"><a class="menu__link" hfer="">About</a></li>
+            <li class="menu__item"><a class="menu__link" hfer="">Contact</a></li>
           </ul>
         </nav>
       </div>
+    </div>
+
+    <div class="container">
+      <div class="header__content">
+        <h1 class="title header__title">The best
+          products start
+          with Figma</h1>
+        <h4 class="subtitle header__subtitle">Most calendars are
+          designed for teams.</h4>
+        <a class="header__link btn btn--white" href="#">Try For Free</a>
+      </div>
+
   </header>
 
   <main class="main">
 
-    <section class="start">
+    <section class="features">
       <div class="container">
-        <div class="start__wrap">
-          <h1 class="start__title">The best
-            products start
-            with Figma</h1>
-          <p class="start__text">Most calendars are
-            designed for teams.</p>
-          <a class="start__link btn btn--white" href="#">Try For Free</a>
+        <h2 class="title features__title">Features</h2>
+        <h4 class="subtitle features__subtitle">Most calendars are
+          designed for teams.</h4>
+        <div class="features__media">
+          <button class="features__play"></button>
+          <video src="video/Working-from-home.mp4" muted playsinline></video>
         </div>
 
-      </div>
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__content">
+              <img class="features__img" src="images/features/circle-square.svg" alt="circle and square">
+              <h3 class="features__title">OpenType features
+                Variable fonts</h3>
+              <p class="features__text">Slate helps you see how
+                many more days you need
+                to work to reach your
+                financial goal.</p>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__content">
+              <img class="features__img" src="images/features/pen.svg" alt="pen">
+              <h3 class="features__title">Design with real data</h3>
+              <p class="features__text">Slate helps you see how
+                many more days you need
+                to work to reach your
+                financial goal.</p>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__content">
+              <img class="features__img" src="images/features/brush.svg" alt="brush">
+              <h3 class="features__title">Fastest way to
+                take action</h3>
+              <p class="features__text">Slate helps you see how
+                many more days you need
+                to work to reach your
+                financial goal.</p>
+            </div>
+          </li>
+        </ul>
 
+      </div>
     </section>
 
   </main>
