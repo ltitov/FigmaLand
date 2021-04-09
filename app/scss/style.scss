@@ -390,5 +390,44 @@
   }
 }
 
-
 // End newletter section
+
+// Start partners section
+
+.partners {
+  padding: 50px 0;
+
+  &__title {
+    padding: 0 85px 16px;
+  }
+
+  &__subtitle {
+    padding: 0 56px 90px;
+  }
+
+  &__list {
+    @include reset-list;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 52px 30px;
+    max-width: 275px;
+    width: 100%;
+    min-height: 150px;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+  }
+
+  &__link {
+    margin-bottom: 50px;
+  }
+}
+
+// End partners section
