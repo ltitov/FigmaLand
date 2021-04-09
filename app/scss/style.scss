@@ -431,3 +431,72 @@
 }
 
 // End partners section
+
+// End partners section
+
+.testimonials {
+  padding: 100px 0;
+
+  &__title {
+    padding: 0 37px 80px;
+  }
+
+  &__wrap {
+    padding: 15px 8px;
+    margin-bottom: 80px;
+  }
+
+  &__img {
+    margin-bottom: 44px;
+  }
+
+  &__caption {
+    @include h-reset;
+    margin-bottom: 44px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+  }
+
+  &__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__avatar {
+    margin-right: 11px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+  }
+
+  &__org,
+  &__prof {
+    display: block;
+    text-align: left;
+  }
+
+  &__org {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 700;
+  }
+
+  &__prof {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  &__link {
+    padding: 20px 45px;
+    font-weight: 700;
+  }
+
+
+
+
+}
+
+// End partners section
