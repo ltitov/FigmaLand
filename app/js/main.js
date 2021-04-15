@@ -1,7 +1,7 @@
 const iconMenu = document.querySelector('.menu__icon'),
-  menuNav = document.querySelector('.menu__nav'),
-  playButton = document.querySelector('.features__play'),
-  videoContent = document.querySelector('.features');
+      menuNav = document.querySelector('.menu__nav'),
+      playButton = document.querySelectorAll('.features__play'),
+      videoContent = document.querySelector('.features');
 
 if (iconMenu) {
   iconMenu.addEventListener('click', function (e) {
@@ -15,16 +15,16 @@ if (iconMenu) {
 
 
 
-videoContent.on('transitionEnd', function () {
-  let videos = document.querySelectorAll('.features__media video');
-  videos.forEach((el) => {
-    el.pause();
-    el.currentTime = 0;
-  });
-  playButton.forEach((el) => {
-    el.style.display = 'block';
-  });
-});
+// videoContent.on('transitionEnd', function () {
+//   let videos = document.querySelectorAll('.features__media video');
+//   videos.forEach((el) => {
+//     el.pause();
+//     el.currentTime = 0;
+//   });
+//   playButton.forEach((el) => {
+//     el.style.display = 'block';
+//   });
+// });
 
 playButton.forEach((el) => {
   el.addEventListener('click', (e) => {
